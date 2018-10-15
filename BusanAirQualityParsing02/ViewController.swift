@@ -14,10 +14,8 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDelegate, 
       var items = [AirQuailtyData]()
       var item = AirQuailtyData()
       var myPm10 = ""
-      var myPm25 = ""
       var mySite = ""
       var myPm10Cai = ""
-      var myPm25Cai = ""
       var currentElement = ""
       var currentTime = ""
       
