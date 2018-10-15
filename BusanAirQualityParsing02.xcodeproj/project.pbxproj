@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		34A4D2C621745DF1003A2D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4D2C521745DF1003A2D31 /* AppDelegate.swift */; };
 		34A4D2C821745DF1003A2D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4D2C721745DF1003A2D31 /* ViewController.swift */; };
-		34A4D2CB21745DF1003A2D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4D2C921745DF1003A2D31 /* Main.storyboard */; };
 		34A4D2CD21745DF1003A2D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A4D2CC21745DF1003A2D31 /* Assets.xcassets */; };
 		34A4D2D021745DF1003A2D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4D2CE21745DF1003A2D31 /* LaunchScreen.storyboard */; };
+		34A4D2DC217469A1003A2D31 /* AirQualityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4D2DB217469A1003A2D31 /* AirQualityData.swift */; };
+		34A4D2DF217469A8003A2D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4D2DD217469A8003A2D31 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34A4D2C221745DF1003A2D31 /* BusanAirQualityParsing02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusanAirQualityParsing02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A4D2C521745DF1003A2D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A4D2C721745DF1003A2D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34A4D2CA21745DF1003A2D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34A4D2CC21745DF1003A2D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A4D2CF21745DF1003A2D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34A4D2D121745DF1003A2D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A4D2DB217469A1003A2D31 /* AirQualityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirQualityData.swift; path = "../../../201412377/Busan-AirQuality-XML-Parsing-Data-Class-Timer/BusanAirQualityParsing/AirQualityData.swift"; sourceTree = "<group>"; };
+		34A4D2DE217469A8003A2D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../201412377/Busan-AirQuality-XML-Parsing-Data-Class-Timer/BusanAirQualityParsing/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				34A4D2C521745DF1003A2D31 /* AppDelegate.swift */,
 				34A4D2C721745DF1003A2D31 /* ViewController.swift */,
-				34A4D2C921745DF1003A2D31 /* Main.storyboard */,
+				34A4D2DD217469A8003A2D31 /* Main.storyboard */,
 				34A4D2CC21745DF1003A2D31 /* Assets.xcassets */,
 				34A4D2CE21745DF1003A2D31 /* LaunchScreen.storyboard */,
 				34A4D2D121745DF1003A2D31 /* Info.plist */,
+				34A4D2DB217469A1003A2D31 /* AirQualityData.swift */,
 			);
 			path = BusanAirQualityParsing02;
 			sourceTree = "<group>";
@@ -122,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A4D2DF217469A8003A2D31 /* Main.storyboard in Resources */,
 				34A4D2D021745DF1003A2D31 /* LaunchScreen.storyboard in Resources */,
 				34A4D2CD21745DF1003A2D31 /* Assets.xcassets in Resources */,
-				34A4D2CB21745DF1003A2D31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A4D2DC217469A1003A2D31 /* AirQualityData.swift in Sources */,
 				34A4D2C821745DF1003A2D31 /* ViewController.swift in Sources */,
 				34A4D2C621745DF1003A2D31 /* AppDelegate.swift in Sources */,
 			);
@@ -143,20 +147,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34A4D2C921745DF1003A2D31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34A4D2CA21745DF1003A2D31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34A4D2CE21745DF1003A2D31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				34A4D2CF21745DF1003A2D31 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		34A4D2DD217469A8003A2D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A4D2DE217469A8003A2D31 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
